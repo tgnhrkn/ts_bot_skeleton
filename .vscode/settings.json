@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "typescript.format.semicolons": "insert",
+    "files.exclude": {
+        "**/*.js": {
+            "when": "$(basename).ts"
+        }
+    }
+}
